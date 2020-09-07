@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Citadel" familyname="Citadel">
+</nifamily>
+</nicomment>
+<nierror code="-1967386623">
+Citadel: Die Dateizuordnung im SQL-Server ist fehlgeschlagen. Möglicherweise wurde der Zugriff verweigert. Vergewissern Sie sich, dass der Ordner zum Speichern der Datenbank vom NETWORK-SERVICE-Benutzer beschreibbar ist.
+</nierror>
+<nierror code="-1967386622">
+Citadel: Der gesuchte Computer, Pfad oder Ordner ist nicht auffindbar.
+</nierror>
+<nierror code="-1967386621">
+Citadel: Der Vorgang kann nicht abgeschlossen werden, da die Ressource noch von einem anderen Client genutzt wird.
+</nierror>
+<nierror code="-1967386620">
+Citadel: Einige Daten können nicht gelöscht werden, da sie auch von anderen Clients genutzt werden.
+</nierror>
+<nierror code="-1967386619">
+Citadel: Dies ist keine Spiegeldatenbank.
+</nierror>
+<nierror code="-1967386618">
+Citadel: Einige Schritte des Vorgangs wurden nicht erfolgreich abgeschlossen.
+</nierror>
+<nierror code="-1967386617">
+Citadel: Es gibt bereits eine Datenbank mit dem angegebenen Pfad oder Namen.
+</nierror>
+<nierror code="-1967386616">
+Citadel: Der Alarm konnte nicht gelesen werden, da die Verbindung unterbrochen wurde oder die Abfrage fehlschlug.
+</nierror>
+<nierror code="-1967386615">
+Citadel: Konnte Datensatz nicht ausführen. Mindestens eins der erforderlichen Attribute fehlt.
+</nierror>
+<nierror code="-1967386613">
+Citadel: Der Name des Datensatzes konnte in der Knotenbaumstruktur nicht gefunden werden.
+</nierror>
+<nierror code="-1967386612">
+Citadel: Die Ausführungskennung des Datensatzes wurde im aktuellen Datensatz nicht gefunden.
+</nierror>
+<nierror code="-1967386611">
+Citadel: Die Citadel-Datenbank ist nicht darauf konfiguriert, Alarme in einer relationalen Datenbank aufzuzeichnen. Dieser Fehler kann auftreten, wenn der Datenbankordner nicht mit den richtigen Zugriffsrechten konfiguriert ist.
+</nierror>
+<nierror code="-1967386610">
+Citadel: Das Zielverzeichnis für die Umwandlung ist ungültig.
+</nierror>
+<nierror code="-1967386609">
+Citadel: Die Version der Zieldatenbank wird vom Umwandlungsprogramm nicht unterstützt.
+</nierror>
+<nierror code="-1967386608">
+Citadel: Unter diesem Pfad wurde keine Datenbank gefunden.
+</nierror>
+<nierror code="-1967386607">
+Citadel: Die Version der Ausgangsdatenbank wird vom Umwandlungsprogramm nicht unterstützt.
+</nierror>
+<nierror code="-1967386606">
+Citadel: Es gibt schon eine Datenbank mit diesem Namen.
+</nierror>
+<nierror code="-1967386605">
+Citadel: Für die Umwandlung ist nicht genügend Speicherplatz auf dem Datenträger vorhanden.
+</nierror>
+<nierror code="-1967386604">
+Citadel: Unerwarteter Fehler im Umwandlungsprogramm
+</nierror>
+<nierror code="-1967386603">
+Citadel: Kann keine Sicherheitskopien der Quelldateien anlegen.
+</nierror>
+<nierror code="-1967386602">
+Citadel: Unerwarteter Fehler beim Lesen von Daten aus der Ausgangsdatenbank.
+</nierror>
+<nierror code="-1967386601">
+Citadel: Unerwarteter Fehler beim Übertragen von Daten in die Zieldatenbank.
+</nierror>
+<nierror code="-1967386600">
+Citadel: Timeout beim Herstellen einer Verbindung mit dem Citadel-4-Dienst.
+</nierror>
+<nierror code="-1967386599">
+Citadel: Kann die Citadel-5-Interfaces nicht laden.
+</nierror>
+<nierror code="-1967386598">
+Citadel: Umwandlung über ein Netzwerk nicht möglich.
+</nierror>
+<nierror code="-1967386597">
+Citadel: Die Ausgangsdatenbank scheint nicht in Ordnung zu sein.
+</nierror>
+<nierror code="-1967386596">
+Citadel: Die Ausgangsdatenbank wird gerade von einem anderen Client verwendet. Schließen Sie alle aktiven Clients und versuchen Sie es noch einmal.
+</nierror>
+<nierror code="-1967386595">
+Citadel: Fehler bei der Alarmabfrage.
+</nierror>
+<nierror code="-1967386594">
+Citadel: Kann keine Verbindung mit der Alarm- und Ereignisdatenbank herstellen.
+</nierror>
+<nierror code="-1967386593">
+Citadel: Der Vorgang wurde vom Client abgebrochen.
+</nierror>
+<nierror code="-1967386592">
+Citadel: Der Citadel-Dienst hat eine Client-Anfrage nicht erkannt. Möglicherweise muss der Client oder Dienst aktualisiert werden.
+</nierror>
+<nierror code="-1967386591">
+Citadel: Das angegebene Objekt (eine Datenbank oder ein Unter-Trace) ist nicht auffindbar.
+</nierror>
+<nierror code="-1967386590">
+Citadel: Die Datenbank wird gerade von einem anderen Client verwendet.
+</nierror>
+<nierror code="-1967386589">
+Citadel: Konnte Datenbank-Datei nicht in den gemeinsamen Speicher übertragen.
+</nierror>
+<nierror code="-1967386588">
+Citadel: Der Datenträger ist voll.
+</nierror>
+<nierror code="-1967386587">
+Citadel: Der Unter-Trace enthält keine Daten.
+</nierror>
+<nierror code="-1967386586">
+Citadel: Das angegebene Verzeichnis enthält eine Citadel-Datenbank, die mit dem ausgeführten Citadel-Dienst nicht kompatibel ist.
+</nierror>
+<nierror code="-1967386585">
+Citadel: Interner Citadel-Fehler.
+</nierror>
+<nierror code="-1967386584">
+Citadel: Falsche Version der Citadel-Datenbank.
+</nierror>
+<nierror code="-1967386583">
+Citadel: Das Zielverzeichnis enthält bereits eine Citadel-5-Datenbank.
+</nierror>
+<nierror code="-1967386582">
+Citadel: Konnte zugehörige relationale Datenbank nicht anmelden.
+</nierror>
+<nierror code="-1967386581">
+Citadel: Konnte zugehörige relationale Datenbank nicht abmelden.
+</nierror>
+<nierror code="-1967386580">
+Citadel: Es existiert bereits ein Objekt mit diesem Namen.
+</nierror>
+<nierror code="-1967386579">
+Citadel: Das Objekt, das unbenannt werden soll, kann nicht verschoben oder umbenannt werden.
+</nierror>
+<nierror code="-1967386578">
+Citadel: Kann kein Objekt mit einem solchen Namen erstellen.
+</nierror>
+<nierror code="-1967386577">
+Citadel: Beim Umbenennen kommt es innerhalb der Knotenbaumstruktur zu einer Endlosschleife.
+</nierror>
+<nierror code="-1967386576">
+Citadel: Kann nicht auf das Citadel-Bearbeitungsprotokoll zugreifen. Eventuell sind die Dateien ungültig oder schreibgeschützt.
+</nierror>
+<nierror code="-1967386575">
+Citadel: Konnte die angegebene Citadel-Datenbank nicht finden.
+</nierror>
+<nierror code="-1967386574">
+Citadel: Konnte zugehörige relationale Datenbank nicht umbenennen.
+</nierror>
+<nierror code="-1967386573">
+Citadel: Hochgeschwindigkeits-Citadel ist nicht auf diesem Computer installiert.
+</nierror>
+<nierror code="-1967386572">
+Citadel: NIScale.dll nicht auffindbar
+</nierror>
+<nierror code="-1967386571">
+Citadel: Inkompatible Version der Citadel-Editlog-Datei.
+</nierror>
+<nierror code="-1967386569">
+Citadel: Es ist bereits eine Komponente geöffnet, die in diesen Datenbank-Trace schreibt.
+</nierror>
+<nierror code="180097025">
+Citadel: Möglicher Datenverlust. Das Citadel-Bearbeitungsprotokoll enthält nicht alle protokollierten Daten.
+</nierror>
+</nidocument>

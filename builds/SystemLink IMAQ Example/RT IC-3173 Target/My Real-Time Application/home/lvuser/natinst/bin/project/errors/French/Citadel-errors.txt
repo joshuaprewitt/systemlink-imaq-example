@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Citadel" familyname="Citadel">
+</nifamily>
+</nicomment>
+<nierror code="-1967386623">
+Citadel: La recherche de fichier a échoué dans SQL Server. Cause possible :l'accès est refusé. Vérifiez que l'utilisateur NETWORK SERVICE a des droits d'écriture dans le dossier dans lequel vous voulez stocker la base de données.
+</nierror>
+<nierror code="-1967386622">
+Citadel: L'élément spécifié (ordinateur, chemin ou dossier, par exemple) est introuvable.
+</nierror>
+<nierror code="-1967386621">
+Citadel: L'opération ne peut pas s'effectuer car la ressource est utilisée par un autre client.
+</nierror>
+<nierror code="-1967386620">
+Citadel: Certaines données ne peuvent pas être supprimées car elles sont partagées avec d'autres clients.
+</nierror>
+<nierror code="-1967386619">
+Citadel: Ceci n'est pas une base de données miroir.
+</nierror>
+<nierror code="-1967386618">
+Citadel: Certaines étapes de l'opération ont échoué.
+</nierror>
+<nierror code="-1967386617">
+Citadel: Une base de données du même nom ou du même chemin existe déjà.
+</nierror>
+<nierror code="-1967386616">
+Citadel: 'Read alarm' a échoué à cause d'un échec de connexion ou de requête.
+</nierror>
+<nierror code="-1967386615">
+Citadel: L'exécution de l'ensemble de données (data set run) a été corrompu. Un ou plusieurs attributs requis sont absents.
+</nierror>
+<nierror code="-1967386613">
+Citadel: Le nom de l'ensemble de données donné est introuvable dans l'arborescence du nœud.
+</nierror>
+<nierror code="-1967386612">
+Citadel: L'identificateur d'exécution de l'ensemble de données donné est introuvable dans l'ensemble de données actuel.
+</nierror>
+<nierror code="-1967386611">
+Citadel: La base de données Citadel indiquée n'est pas configurée pour l'enregistrement des alarmes dans une base de données relationnelle. Cause possible : le dossier de la base de données n'est pas configuré avec les droits d'accès appropriés.
+</nierror>
+<nierror code="-1967386610">
+Citadel: Le répertoire cible de la conversion n'est pas valide.
+</nierror>
+<nierror code="-1967386609">
+Citadel: La version cible n'est pas supportée par l'outil de conversion.
+</nierror>
+<nierror code="-1967386608">
+Citadel: Impossible de trouver une base de données au chemin donné.
+</nierror>
+<nierror code="-1967386607">
+Citadel: La version de la base de données source n'est pas supportée par l'outil de conversion.
+</nierror>
+<nierror code="-1967386606">
+Citadel: Une base de données de ce nom existe déjà.
+</nierror>
+<nierror code="-1967386605">
+Citadel: Il n'y a pas assez d'espace disque pour effectuer l'opération de conversion.
+</nierror>
+<nierror code="-1967386604">
+Citadel: Une erreur inattendue est survenue dans l'outil de conversion.
+</nierror>
+<nierror code="-1967386603">
+Citadel: Impossible de créer des copies de sauvegarde pour les fichiers source.
+</nierror>
+<nierror code="-1967386602">
+Citadel: Échec inattendu à la lecture des données de la base de données source.
+</nierror>
+<nierror code="-1967386601">
+Citadel: Échec inattendu à l'écriture des données dans la base de données cible.
+</nierror>
+<nierror code="-1967386600">
+Citadel: Le délai d'attente imparti pour contacter le service Citadel 4 a expiré.
+</nierror>
+<nierror code="-1967386599">
+Citadel: Impossible de charger les interfaces Citadel 5.
+</nierror>
+<nierror code="-1967386598">
+Citadel: La conversion à distance n'est pas supportée.
+</nierror>
+<nierror code="-1967386597">
+Citadel: La base de données source semble être corrompue.
+</nierror>
+<nierror code="-1967386596">
+Citadel: Un autre client utilise la base de données source. Veuillez fermer les clients actifs et réessayer.
+</nierror>
+<nierror code="-1967386595">
+Citadel: La requête d'alarme a échoué.
+</nierror>
+<nierror code="-1967386594">
+Citadel: Impossible de se connecter à la base de données d'alarmes et d'événements.
+</nierror>
+<nierror code="-1967386593">
+Citadel: La requête a été abandonnée par le client.
+</nierror>
+<nierror code="-1967386592">
+Citadel: Une requête d'un client n'a pas été reconnue par le service Citadel. Ceci peut indiquer que le client ou le service doit être mis à niveau.
+</nierror>
+<nierror code="-1967386591">
+Citadel: L'élément spécifié, une base de donnée ou une sous-trace, est introuvable.
+</nierror>
+<nierror code="-1967386590">
+Citadel: Un autre client utilise la base de données.
+</nierror>
+<nierror code="-1967386589">
+Citadel: Impossible de mapper le fichier de base de données en mémoire partagée.
+</nierror>
+<nierror code="-1967386588">
+Citadel: Le disque est plein.
+</nierror>
+<nierror code="-1967386587">
+Citadel: La sous-trace ne contient aucune donnée.
+</nierror>
+<nierror code="-1967386586">
+Citadel: Le répertoire spécifié contient une base de données Citadel qui n'est pas compatible avec le service Citadel en cours d'exécution.
+</nierror>
+<nierror code="-1967386585">
+Citadel: Erreur Citadel interne.
+</nierror>
+<nierror code="-1967386584">
+Citadel: Mauvaise version de base de données Citadel.
+</nierror>
+<nierror code="-1967386583">
+Citadel: Le répertoire cible contient déjà une base de donnée Citadel 5.
+</nierror>
+<nierror code="-1967386582">
+Citadel: Impossible d'attacher la base de données relationnelle associée.
+</nierror>
+<nierror code="-1967386581">
+Citadel: Impossible de détacher la base de données relationnelle associée.
+</nierror>
+<nierror code="-1967386580">
+Citadel: La cible de l'opération de renommage existe déjà.
+</nierror>
+<nierror code="-1967386579">
+Citadel: L'opération de renommage ne peut pas déplacer ou renommer la source.
+</nierror>
+<nierror code="-1967386578">
+Citadel: L'opération de renommage ne peut pas créer la cible.
+</nierror>
+<nierror code="-1967386577">
+Citadel: L'opération de renommage créera un cycle dans l'arborescence du nœud.
+</nierror>
+<nierror code="-1967386576">
+Citadel: Impossible d'accéder au journal d'édition Citadel. Les fichiers de la base de données sont peut-être en lecture seule ou corrompus.
+</nierror>
+<nierror code="-1967386575">
+Citadel: Impossible de trouver la base de données Citadel spécifiée.
+</nierror>
+<nierror code="-1967386574">
+Citadel: Impossible de renommer la base de données relationnelle associée.
+</nierror>
+<nierror code="-1967386573">
+Citadel: Citadel haute-vitesse n'est pas installé sur cet ordinateur.
+</nierror>
+<nierror code="-1967386572">
+Citadel: Impossible de trouver NIScale.dll
+</nierror>
+<nierror code="-1967386571">
+Citadel: La version de fichier Citadel Editlog n'est pas compatible
+</nierror>
+<nierror code="-1967386569">
+Citadel: Il y a déjà une source d'écriture ouverte pour la trace sélectionnée.
+</nierror>
+<nierror code="180097025">
+Citadel: Perte de données possible. Le journal d'édition Citadel ne contient pas toutes les données enregistrées.
+</nierror>
+</nidocument>

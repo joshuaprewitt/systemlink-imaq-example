@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Citadel" familyname="Citadel">
+</nifamily>
+</nicomment>
+<nierror code="-1967386623">
+Citadel: File lookup failed in SQL Server. A possible cause for this error is access is denied. Ensure that the folder where you want to store the database is writable by the NETWORK SERVICE user.
+</nierror>
+<nierror code="-1967386622">
+Citadel: The specified item, such as computer, path, or folder, cannot be found.
+</nierror>
+<nierror code="-1967386621">
+Citadel: The operation cannot be completed because the resource is in use by another client.
+</nierror>
+<nierror code="-1967386620">
+Citadel: Some data cannot be deleted because it is shared with other clients.
+</nierror>
+<nierror code="-1967386619">
+Citadel: This is not a mirror database.
+</nierror>
+<nierror code="-1967386618">
+Citadel: Not all steps of the operation succeeded.
+</nierror>
+<nierror code="-1967386617">
+Citadel: A database with specified name or path already exists.
+</nierror>
+<nierror code="-1967386616">
+Citadel: Read alarm failed because of connection or query failure.
+</nierror>
+<nierror code="-1967386615">
+Citadel: The data set run was corrupted. One or more required attributes were not present.
+</nierror>
+<nierror code="-1967386613">
+Citadel: The given data set name could not be found in the node tree.
+</nierror>
+<nierror code="-1967386612">
+Citadel: The given data set run ID could not be found in the current data set.
+</nierror>
+<nierror code="-1967386611">
+Citadel: The given Citadel database is not currently configured to log alarms to a relational database. This error can occur if the database folder is not configured with appropriate access rights.
+</nierror>
+<nierror code="-1967386610">
+Citadel: The target directory for the conversion is invalid.
+</nierror>
+<nierror code="-1967386609">
+Citadel: The target version is not supported by the conversion tool.
+</nierror>
+<nierror code="-1967386608">
+Citadel: No database found at the given path.
+</nierror>
+<nierror code="-1967386607">
+Citadel: The source database version is not supported by the conversion tool.
+</nierror>
+<nierror code="-1967386606">
+Citadel: A database with the given name already exists.
+</nierror>
+<nierror code="-1967386605">
+Citadel: There is insufficient disk space to complete the conversion operation.
+</nierror>
+<nierror code="-1967386604">
+Citadel: An unexpected error occurred within the conversion tool.
+</nierror>
+<nierror code="-1967386603">
+Citadel: Unable to create backup copies of the source files.
+</nierror>
+<nierror code="-1967386602">
+Citadel: Unexpected failure while reading data from the source database.
+</nierror>
+<nierror code="-1967386601">
+Citadel: Unexpected failure while writing data to the target database.
+</nierror>
+<nierror code="-1967386600">
+Citadel: Timed out attempting to contact the Citadel 4 service.
+</nierror>
+<nierror code="-1967386599">
+Citadel: Unable to load Citadel 5 interfaces.
+</nierror>
+<nierror code="-1967386598">
+Citadel: Remote conversion is not supported.
+</nierror>
+<nierror code="-1967386597">
+Citadel: The source database appears to be corrupted.
+</nierror>
+<nierror code="-1967386596">
+Citadel: Another client is using the source database. Please close any active clients and try again.
+</nierror>
+<nierror code="-1967386595">
+Citadel: Alarm query failed.
+</nierror>
+<nierror code="-1967386594">
+Citadel: Could not connect to alarm and events database.
+</nierror>
+<nierror code="-1967386593">
+Citadel: The request has been aborted by the client.
+</nierror>
+<nierror code="-1967386592">
+Citadel: A request from a client was not recognized by the Citadel service. This may indicate that the client or the service needs to be upgraded.
+</nierror>
+<nierror code="-1967386591">
+Citadel: The specified item, a database or subtrace, cannot be found.
+</nierror>
+<nierror code="-1967386590">
+Citadel: Another client is using the database.
+</nierror>
+<nierror code="-1967386589">
+Citadel: Failed to map database file into shared memory.
+</nierror>
+<nierror code="-1967386588">
+Citadel: The disk is full.
+</nierror>
+<nierror code="-1967386587">
+Citadel: The subtrace contains no data.
+</nierror>
+<nierror code="-1967386586">
+Citadel: The specified directory contains a Citadel database that is incompatible with the Citadel service running.
+</nierror>
+<nierror code="-1967386585">
+Citadel: Internal Citadel error.
+</nierror>
+<nierror code="-1967386584">
+Citadel: Wrong Citadel database version.
+</nierror>
+<nierror code="-1967386583">
+Citadel: The target directory already contains a Citadel 5 database.
+</nierror>
+<nierror code="-1967386582">
+Citadel: Failed to attach associated relational database.
+</nierror>
+<nierror code="-1967386581">
+Citadel: Failed to detach associated relational database.
+</nierror>
+<nierror code="-1967386580">
+Citadel: The target of the rename operation already exists.
+</nierror>
+<nierror code="-1967386579">
+Citadel: The rename operation cannot move or rename the source.
+</nierror>
+<nierror code="-1967386578">
+Citadel: The rename operation cannot create the target.
+</nierror>
+<nierror code="-1967386577">
+Citadel: The rename operation will create a cycle in the node tree.
+</nierror>
+<nierror code="-1967386576">
+Citadel: Unable to access Citadel edit log. Database files may be read-only or invalid.
+</nierror>
+<nierror code="-1967386575">
+Citadel: Unable to find the specified Citadel database.
+</nierror>
+<nierror code="-1967386574">
+Citadel: Failed to rename associated relational database.
+</nierror>
+<nierror code="-1967386573">
+Citadel: High-speed Citadel is not installed on this computer.
+</nierror>
+<nierror code="-1967386572">
+Citadel: Could not locate NIScale.dll
+</nierror>
+<nierror code="-1967386571">
+Citadel: The Citadel Editlog file version is incompatible
+</nierror>
+<nierror code="-1967386569">
+Citadel: There is already an open writer for the selected trace.
+</nierror>
+<nierror code="180097025">
+Citadel: Possible data loss. The Citadel edit log does not contain all logged data.
+</nierror>
+</nidocument>

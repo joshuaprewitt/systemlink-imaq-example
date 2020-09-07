@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Citadel" familyname="Citadel">
+</nifamily>
+</nicomment>
+<nierror code="-1967386623">
+Citadel: SQLサーバのファイルルックアップに失敗しました。このエラーの原因はアクセスが拒否されたためである可能性があります。データベースを保存するフォルダがNETWORK SERVICEユーザによって書き込み可能であることを確認します。
+</nierror>
+<nierror code="-1967386622">
+Citadel: 指定された項目 (コンピュータ、パス、フォルダなど) が見つかりません。
+</nierror>
+<nierror code="-1967386621">
+Citadel: リソースが他のクライアントによって使用中のため、操作を完了できません。
+</nierror>
+<nierror code="-1967386620">
+Citadel: 一部のデータは他のクライアントと共有されているため、削除できません。
+</nierror>
+<nierror code="-1967386619">
+Citadel: これはミラーデータベースではありません。
+</nierror>
+<nierror code="-1967386618">
+Citadel: 操作のすべてのステップが成功したわけではありません。
+</nierror>
+<nierror code="-1967386617">
+Citadel: 指定された名前またはパスのデータベースはすでに存在します。
+</nierror>
+<nierror code="-1967386616">
+Citadel: 接続またはクエリの失敗のために読み取り警告が失敗しました。
+</nierror>
+<nierror code="-1967386615">
+Citadel: データセット実行が破損しました。1つ以上の必須属性が存在しませんでした。
+</nierror>
+<nierror code="-1967386613">
+Citadel: 指定されたデータセット名は、ノードツリー内に見つかりませんでした。
+</nierror>
+<nierror code="-1967386612">
+Citadel: 指定されたデータセット実行IDは、現在のデータセット内に見つかりませんでした。
+</nierror>
+<nierror code="-1967386611">
+Citadel: 指定のCitadelデータベースは、現在リレーショナルデータベースにアラームをログするように構成されていません。このエラーは、データベースフォルダが適切なアクセス権で構成されていない場合に発生します。
+</nierror>
+<nierror code="-1967386610">
+Citadel: 変換のターゲットディレクトリが無効です。
+</nierror>
+<nierror code="-1967386609">
+Citadel: ターゲットバージョンは変換ツールでサポートされていません。
+</nierror>
+<nierror code="-1967386608">
+Citadel: 指定されたパスにデータベースが見つかりません。
+</nierror>
+<nierror code="-1967386607">
+Citadel: ソースデータベースバージョンは変換ツールでサポートされていません。
+</nierror>
+<nierror code="-1967386606">
+Citadel: 指定された名前のデータベースはすでにに存在しています。
+</nierror>
+<nierror code="-1967386605">
+Citadel: 空きディスク容量不足のため、変換操作を完了できません。
+</nierror>
+<nierror code="-1967386604">
+Citadel: 変換ツールで予期しないエラーが発生しました。
+</nierror>
+<nierror code="-1967386603">
+Citadel: ソースファイルのバックアップコピーを作成できません。
+</nierror>
+<nierror code="-1967386602">
+Citadel: ソースデータベースからデータを読み取っているときに予期しないエラーが発生しました。
+</nierror>
+<nierror code="-1967386601">
+Citadel: ターゲットデータベースにデータを書き込んでいるときに予期しないエラーが発生しました。
+</nierror>
+<nierror code="-1967386600">
+Citadel: Citadel 4サービスに連絡しようとしてタイムアウトになりました。
+</nierror>
+<nierror code="-1967386599">
+Citadel: Citadel 5インタフェースを読み取れません。
+</nierror>
+<nierror code="-1967386598">
+Citadel: リモート変換はサポートされていません
+</nierror>
+<nierror code="-1967386597">
+Citadel: ソースデータベースが破損しているようです。
+</nierror>
+<nierror code="-1967386596">
+Citadel: 別のクライアントがソースデータベースを使用しています。アクティブなクライアントを閉じてから、再試行してください 。
+</nierror>
+<nierror code="-1967386595">
+Citadel: アラームクエリに失敗しました。
+</nierror>
+<nierror code="-1967386594">
+Citadel: アラームデータベースとイベントデータベースに接続できませんでした。
+</nierror>
+<nierror code="-1967386593">
+Citadel: クライアントにより要求が中断されました。
+</nierror>
+<nierror code="-1967386592">
+Citadel: クライアントからの要求がCitadelサービスによって認識されませんでした。これは、クライアントまたはサービスをアップグレードする必要があることを示している可能性があります。
+</nierror>
+<nierror code="-1967386591">
+Citadel: 指定された項目 (データベースまたはサブトレース) が見つかりません。
+</nierror>
+<nierror code="-1967386590">
+Citadel: 別のクライアントがデータベースを使用しています。
+</nierror>
+<nierror code="-1967386589">
+Citadel: データベースファイルを共有メモリにマップできませんでした。
+</nierror>
+<nierror code="-1967386588">
+Citadel: ディスクがいっぱいです。
+</nierror>
+<nierror code="-1967386587">
+Citadel: サブトレースにデータがありません。
+</nierror>
+<nierror code="-1967386586">
+Citadel: 指定されたディレクトリには、実行中のCitadelサービスと互換性のないCitadelデータベースが含まれています。
+</nierror>
+<nierror code="-1967386585">
+Citadel: 内部Citadelエラーです。
+</nierror>
+<nierror code="-1967386584">
+Citadel: Citadelデータベースのバージョンが間違っています。
+</nierror>
+<nierror code="-1967386583">
+Citadel: ターゲットディレクトリにCitadel 5データベースがすでに含まれています。
+</nierror>
+<nierror code="-1967386582">
+Citadel: 関連するリレーショナルデータベースをアタッチできませんでした。
+</nierror>
+<nierror code="-1967386581">
+Citadel: 関連するリレーショナルデータベースをデタッチできませんでした。
+</nierror>
+<nierror code="-1967386580">
+Citadel: 名称変更操作のターゲットはすでに存在します。
+</nierror>
+<nierror code="-1967386579">
+Citadel: 名称変更操作では、ソースの移動や名前の変更はできません。
+</nierror>
+<nierror code="-1967386578">
+Citadel: 名称変更操作では、ターゲットを作成できません。
+</nierror>
+<nierror code="-1967386577">
+Citadel: 名前変更操作では、ノードツリーにサイクルを作成します。
+</nierror>
+<nierror code="-1967386576">
+Citadel: Citadel編集ログにアクセスできません。データベースファイルは読み取り専用または無効である可能性があります。
+</nierror>
+<nierror code="-1967386575">
+Citadel: 指定されたCitadelデータベースが見つかりません。
+</nierror>
+<nierror code="-1967386574">
+Citadel: 関連するリレーショナルデータベースの名前を変更できませんでした。
+</nierror>
+<nierror code="-1967386573">
+Citadel: このコンピュータには高速Citadelがインストールされていません。
+</nierror>
+<nierror code="-1967386572">
+Citadel: NIScale.dllが見つかりませんでした
+</nierror>
+<nierror code="-1967386571">
+Citadel: Citadel Editlogファイルのバージョンに互換性がありません
+</nierror>
+<nierror code="-1967386569">
+Citadel: 選択したトレースにはすでに開かれたライタがあります。
+</nierror>
+<nierror code="180097025">
+Citadel: データ損失の可能性。Citadel編集ログにはログデータがすべて含まれているとは限りません。
+</nierror>
+</nidocument>
