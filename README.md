@@ -1,4 +1,4 @@
-# sl-imaq-example
+# systemlink-imaq-example
  
 This example demonstrates how to trigger an image acquisition from an IC-3173 using a SystemLink message and then publish the image as a tag that can then be viewed from the SystemLink Server web interface.
 
