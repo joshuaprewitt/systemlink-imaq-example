@@ -8,4 +8,6 @@ For more information on how to get your WebVI to show up as a SystemLink applica
 
 Requires LabVIEW 2019 and NXG 5.0 Web Module
 
-![alt Screen Shot](https://github.com/joshuaprewitt/systemlink-imaq-example/blob/master/imaq-example.png)
+![alt LabVIEW and NXG](https://github.com/joshuaprewitt/systemlink-imaq-example/blob/master/lv-nxg-imaq.png)
+
+![alt SystemLink](https://github.com/joshuaprewitt/systemlink-imaq-example/blob/master/sl-imaq.png)
