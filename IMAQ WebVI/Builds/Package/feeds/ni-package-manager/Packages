@@ -1,0 +1,152 @@
+﻿Architecture: windows_x64
+CompatibilityVersion: 0
+Description: Package that indicates the current system is running a 64-bit Windows operating system.
+DisplayName: System Package for 64-Bit Windows OS
+DisplayVersion: 20.5.0
+Essential: yes
+Filename: ../../pool/system-windows-x64_20.5.0.49152-0+f0_windows_x64.nipkg
+Homepage: http://www.ni.com
+MD5Sum: 35e13f624d250c054dd8b10f32b99c75
+MD5sum: 35e13f624d250c054dd8b10f32b99c75
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_64BIT WINDOWS_81_64BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
+Package: system-windows-x64
+Plugin: file
+Priority: standard
+Section: Infrastructure
+Size: 690
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 0
+Depends: system-windows-x86 (>= 20.5.0) | system-windows-x64 (>= 20.5.0)
+Description: Deployment support for NI Package Manager.
+DisplayName: NI Package Manager Deployment Support
+DisplayVersion: 20.5.0
+Essential: yes
+Filename: ../../pool/ni-package-manager-deployment-support.nipkg
+Homepage: http://www.ni.com
+MD5Sum: dbbc4360cb69288aaed52a09bd8153b0
+MD5sum: dbbc4360cb69288aaed52a09bd8153b0
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
+Package: ni-package-manager-deployment-support
+Plugin: wininst
+Priority: standard
+Section: Infrastructure
+Size: 82809748
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 185000
+Conflicts: ni-package-manager (<< 18.5.0)
+Description: Application used to upgrade the package manager.
+DisplayName: NI Package Manager Upgrader
+DisplayVersion: 20.5.0
+Essential: yes
+Eula: eula-ni-standard
+Filename: ../../pool/ni-package-manager-upgrader.nipkg
+Homepage: http://www.ni.com
+MD5Sum: 8dd9464f465229183be3fcba2ab90c39
+MD5sum: 8dd9464f465229183be3fcba2ab90c39
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
+Package: ni-package-manager-upgrader
+Plugin: file
+Priority: required
+Section: Infrastructure
+Size: 3354964
+Version: 20.5.0.49152-0+f0
+
+AlwaysRemoves: ni-package-manager-released-feed
+Architecture: windows_all
+CompatibilityVersion: 0
+Depends: ni-package-manager-upgrader, ni-package-manager-deployment-support (>= 20.5.0.49152-0+f0),
+Description: NI Package Manager facilitates the installation, removal, and management of NI software.
+Description-de: Der NI-Paketmanager erleichtert das Installieren, Deinstallieren und Verwalten von NI-Software.
+Description-fr: Le Gestionnaire de paquets NI facilite l'installation, la suppression et la gestion des logiciels NI.
+Description-ja: NI パッケージマネージャは、NIソフトウェアのインストール、削除、および管理を行うツールです。
+Description-ko: NI 패키지 관리자는 NI 소프트웨어의 설치, 제거 및 관리를 용이하게 합니다.
+Description-zh-CN: NI Package Manager可帮助用户安装、删除及管理NI软件。
+DisplayName: NI Package Manager
+DisplayName-de: NI-Paketmanager
+DisplayName-fr: Gestionnaire de paquets NI
+DisplayName-ja: NI パッケージマネージャ
+DisplayName-ko: NI 패키지 관리자
+DisplayName-zh-CN: NI Package Manager
+DisplayVersion: 20.5.0
+Essential: yes
+Eula: eula-ni-standard
+Filename: ../../pool/ni-package-manager.nipkg
+Homepage: http://www.ni.com
+Locked: yes
+MD5Sum: a50c320d1b99534204493515afc528fd
+MD5sum: a50c320d1b99534204493515afc528fd
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
+Package: ni-package-manager
+Plugin: wininst
+Priority: required
+ReleaseNotes: 
+  Refer to the NI website at http://www.ni.com/r/nipm20.5rm for installation instructions, known issues, bug fixes, compatibility information, and other important notices about this product.
+ReleaseNotes-de: 
+  Auf der NI-Website http://www.ni.com/r/nipm20.5rm-de finden Sie wichtige Hinweise zu diesem Produkt, darunter Informationen zur Installation, zu bekannten Problemen, zu Fehlerkorrekturen und zur Kompatibilität.
+ReleaseNotes-fr: 
+  Reportez-vous au site Web NI à l'adresse http://www.ni.com/r/nipm20.5rm-fr pour obtenir les instructions d'installation, des informations sur les problèmes connus, les corrections de bugs, la compatibilité ainsi que d'autres informations importantes concernant ce produit.
+ReleaseNotes-ja: 
+  インストール手順、既知の問題、バグ修正、互換性情報、およびこの製品に関するその他の重要な注意事項については、NI Webサイト (http://www.ni.com/r/nipm20.5rm-ja) を参照してください。
+ReleaseNotes-ko: 
+  이 제품에 대한 설치 방법, 알려진 유의사항, 버그 수정, 호환성 정보, 기타 중요한 알림사항은 NI 웹사이트(http://www.ni.com/r/nipm20.5rm-ko)를 참조하십시오.
+ReleaseNotes-zh-CN: 
+  关于安装说明、已知问题、错误修正、兼容信息以及本产品的其他重要说明，请参阅NI网站上的http://www.ni.com/r/nipm20.5rm-zh-cn。
+Section: Utilities
+Size: 11693110
+StoreProduct: yes
+UserVisible: yes
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 0
+Conflicts: ni-package-manager
+Description: Package for displaying the NI Software License Agreement for Released Products
+DisplayName: NI Software License Agreement for Released Products
+DisplayVersion: 20.5.0
+EulaPriority: -100
+EulaTitle: NI
+Filename: ../../pool/eula-ni-standard_20.5.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5Sum: 3f8537e8f4036874e2c093b927f69049
+MD5sum: 3f8537e8f4036874e2c093b927f69049
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
+Package: eula-ni-standard
+Plugin: eula
+Priority: standard
+Section: Infrastructure
+Size: 273564
+UserVisible: no
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 0
+Conflicts: ni-package-manager-16.0-repository
+Description: Provides NI Package Manager released packages.
+DisplayName: NI Package Manager Released Feed
+DisplayVersion: 20.5.0
+Essential: yes
+Filename: ../../pool/ni-package-manager-released-feed.nipkg
+Homepage: http://www.ni.com
+MD5Sum: 651b3e4baf7aaaaa8229b38ef116db7a
+MD5sum: 651b3e4baf7aaaaa8229b38ef116db7a
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
+Package: ni-package-manager-released-feed
+Plugin: file
+Priority: standard
+Provides: ni-package-manager-16.0-repository
+Replaces: ni-package-manager-16.0-repository
+RepositoryNames: ni-package-manager-released
+Section: Feed
+Size: 932
+Version: 20.5.0.49152-0+f0
+

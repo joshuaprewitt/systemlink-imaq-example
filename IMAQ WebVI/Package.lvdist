@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="D4B03EA249C241D264935A627BFE173409B33FFF04571B13F935418588B78DCBCBBDF2844DF5F68191A200EDFA48F3A548A4232929BB6C43AD4186ABC3BCF31F" Timestamp="1D685831D7A2C51" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="National Instruments" Product="SystemLink IMAQ Example" ShortDescription="National Instruments IMAQ WebVI" TargetedProduct="LabVIEW" Version="1.0.0.7" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionDependencyContent DisplayName="ni-certificates" Id="a53c011dc8f43b7a2cd1d3d0fbf1199" Included="False" Name="ni-certificates" RequirementType="Recommended" VersionRequirement="None" />
+		<DistributionOutput CachedDisplayName="Package Installer" Id="a35907f6ad8842629617498f13a7cf51" p3:CustomNipmPackageName="sl-imaq-webvi" p3:DistributionCategory="Application" p3:MaintainerEmail="joshua.prewitt@ni.com" p3:MaintainerName="National Instruments" p3:PackageDisplayName="IMAQ WebVI" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="a6b9b9c7f24844a4862ec2e7e1a877f9" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="bf32aa9c5b0b4b8ea36f79f4f0d656a3" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;National Instruments\\Shared\\Web Server\\htdocs\\plugins\\sl-imaq&quot;" RootLocation="ApplicationFiles_64" Target="::Web Server::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="NI Web Server" Id="b000cc40e12a45c1887c30141205e320" Included="False" MaintainerName="National Instruments" Name="ni-webserver" Version="20.5.0.49152-0+f0" />
+		<DistributionMemberDependencySource Id="b4a28060a7734487b8a81bf8ff795c16" MemberContentType="{http://www.ni.com/GComponent.xsd}SupportFile" RelativeLocation="&quot;National Instruments\\Shared\\Web Server\\conf\\conf.d&quot;" RootLocation="ApplicationFiles_64" Target="::DevSystem::Interactive::52_sl-imaq.conf" />
+		<DistributionMemberDependencySource Id="4097a67c5c4b4db381cc5f7fff89e06f" MemberContentType="{http://www.ni.com/GComponent.xsd}SupportFile" RelativeLocation="&quot;National Instruments\\Shared\\Web Server\\conf\\htpriv.d&quot;" RootLocation="ApplicationFiles_64" Target="::DevSystem::Interactive::sl-imaq.htpriv" />
+		<DistributionMemberDependencySource Id="3cf607f07be74c2a943c8eb9bf63a7a4" MemberContentType="{http://www.ni.com/GComponent.xsd}SupportFile" RelativeLocation="&quot;National Instruments\\Shared\\Web Server\\conf\\htpriv.d&quot;" RootLocation="ApplicationFiles_64" Target="::DevSystem::Interactive::sl-imaq.xml" />
+	</DistributionDefinition>
+</SourceFile>

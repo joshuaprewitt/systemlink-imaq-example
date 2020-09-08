@@ -1,0 +1,38 @@
+﻿Architecture: windows_x64
+CompatibilityVersion: 0
+Description: Package that indicates the current system is running a 64-bit Windows operating system.
+DisplayName: System Package for 64-Bit Windows OS
+DisplayVersion: 20.5.0
+Essential: yes
+Filename: system-windows-x64.nipkg
+Homepage: http://www.ni.com
+MD5Sum: 35e13f624d250c054dd8b10f32b99c75
+MD5sum: 35e13f624d250c054dd8b10f32b99c75
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_64BIT WINDOWS_81_64BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
+Package: system-windows-x64
+Plugin: file
+Priority: standard
+Section: Infrastructure
+Size: 690
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_x86
+CompatibilityVersion: 0
+Description: Package that indicates the current system is running a 32-bit Windows operating system.
+DisplayName: System Package for 32-Bit Windows OS
+DisplayVersion: 20.5.0
+Essential: yes
+Filename: system-windows-x86.nipkg
+Homepage: http://www.ni.com
+MD5Sum: fe803ea82305372096027417366b9790
+MD5sum: fe803ea82305372096027417366b9790
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_81_32BIT WINDOWS_10_32BIT WINDOWS_EMBEDDED_STANDARD_7_SP1
+Package: system-windows-x86
+Plugin: file
+Priority: standard
+Section: Infrastructure
+Size: 664
+Version: 20.5.0.49152-0+f0
+

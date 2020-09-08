@@ -1,0 +1,301 @@
+﻿Architecture: windows_x64
+Built-Using: nipkg
+CompatibilityVersion: 200501
+Depends: ni-webserver (>= 20.5.0.49152-0+f0),
+Description: National Instruments IMAQ WebVI
+DisplayName: IMAQ WebVI
+Essential: no
+Filename: ../../pool/sl-imaq-webvi_1.0.0.6_windows_x64.nipkg
+MD5sum: 1177c6b33058ccf4919edfe4d768c96f
+Maintainer: National Instruments <joshua.prewitt@ni.com>
+Package: sl-imaq-webvi
+Plugin: file
+Priority: optional
+Provides: national instruments-systemlink imaq example-package
+Recommends: ni-certificates,
+Section: Application Software
+Size: 1742184
+StoreProduct: no
+Suggests: 
+UserVisible: yes
+Version: 1.0.0.6
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Conflicts: c91aa89d-93fd-4194-a4d3-0c2f44196890 (<<2.0.0)
+Description: This is an infrastructure package for NI Software.
+DisplayName: NI Security Update (KB 67L8LCQW)
+DisplayVersion: 2.1.0
+Eula: eula-ni-standard
+Filename: ../../pool/ni-securityupdate-kb67l8lcqw-killbits_2.1.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: c443aead28ded98fc0dac8c11fd903ea
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-securityupdate-kb67l8lcqw-killbits
+Plugin: wininst
+Priority: standard
+Provides: 1d29f576-dd70-4519-9e7d-08e895f409a4 (=2.10.49152), c91aa89d-93fd-4194-a4d3-0c2f44196890 (=2.10.49152)
+Replaces: c91aa89d-93fd-4194-a4d3-0c2f44196890 (<<2.0.0)
+Section: Infrastructure
+Size: 874922
+Tags: KillBits, Security Update 2013
+Version: 2.1.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 200003
+Conflicts: 5b0cb826-e499-4e6b-94f0-75b6327ed934 (<<16.2.0)
+Depends: ni-securityupdate-kb67l8lcqw-killbits (>=2.1.0)
+Description: This package provides support for uninstallation of NI products.
+DisplayName: NI Uninstaller
+DisplayVersion: 20.5.0
+Filename: ../../pool/ni-metauninstaller_20.5.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: 0002e4d25aac42786070a4d4347957b3
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-metauninstaller
+Plugin: wininst
+Priority: standard
+Provides: 5b0cb826-e499-4e6b-94f0-75b6327ed934 (=20.50.49152)
+Replaces: 5b0cb826-e499-4e6b-94f0-75b6327ed934 (<<16.2.0)
+Section: Infrastructure
+Size: 2830672
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 200003
+Conflicts: 1bebed5e-7f4f-4c30-8c65-b2184919759a (<<16.0.999)
+Depends: ni-metauninstaller (>=20.0.0)
+Description: Installs license and notice files.
+DisplayName: NI EULADepot
+DisplayVersion: 20.5.0
+Filename: ../../pool/ni-euladepot_20.5.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: 57a3e18494c2eea9c63d90a0fd308d6c
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-euladepot
+Plugin: wininst
+Priority: standard
+Provides: 1bebed5e-7f4f-4c30-8c65-b2184919759a (=20.50.49152)
+Replaces: 1bebed5e-7f4f-4c30-8c65-b2184919759a (<<16.0.999)
+Section: Infrastructure
+Size: 16150062
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 200003
+Conflicts: be400a3d-e9d6-48d9-af14-337722a11d40 (<<16.2.0)
+Depends: ni-euladepot (>=20.5.0), ni-metauninstaller (>=20.5.0)
+Description: This package installs the files necessary to support building deployments from NI's ADEs.
+DisplayName: NI ADE Deployment Support
+DisplayVersion: 20.5.0
+Filename: ../../pool/ni-mdfsupport_20.5.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: c9c02118ebfc86bfe5cf3a0ae6e4277b
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-mdfsupport
+Plugin: wininst
+Priority: standard
+Provides: be400a3d-e9d6-48d9-af14-337722a11d40 (=20.50.49152)
+Replaces: be400a3d-e9d6-48d9-af14-337722a11d40 (<<16.2.0)
+Section: Infrastructure
+Size: 12492548
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 200003
+Conflicts: 96948150-f652-44e0-8f93-2376cb68e00f (<<16.9.9)
+Depends: ni-mdfsupport (>=20.5.0), ni-metauninstaller (>=20.5.0)
+Description: Installs the files necessary for Package Manager to resolve NI properties (e.g. the NI Program Files installation directory) and evaluate MSI conditions.
+DisplayName: NI MSI Properties
+DisplayVersion: 20.5.0
+Filename: ../../pool/ni-msiproperties_20.5.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: 838bfa6433415313f25affecea7846e4
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-msiproperties
+Plugin: wininst
+Priority: standard
+Provides: 96948150-f652-44e0-8f93-2376cb68e00f (=20.50.49152), f17f2f80-5b15-499d-aa54-9c80fe178acb (=20.50.49152)
+Replaces: 96948150-f652-44e0-8f93-2376cb68e00f (<<16.9.9)
+Section: Infrastructure
+Size: 1606482
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Conflicts: ba13bc17-0a77-40fb-8066-58b4266b153c (<<4.61.50000)
+Depends: ni-mdfsupport (>=19.0.0), ni-metauninstaller (>=19.0.0), ni-msiproperties (>=19.0.0)
+Description: NI installer for Microsoft's .NET Framework 4.6.2
+DisplayName: Microsoft .NET Framework 4.6.2
+DisplayVersion: 4.6.2
+Filename: ../../pool/ni-msdotnet4x_4.6.3.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: 8d9e04bdcdc5ff7a0e0f92db5653aa98
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-msdotnet4x
+Plugin: wininst
+Priority: standard
+Provides: ba13bc17-0a77-40fb-8066-58b4266b153c (=4.63.49152)
+Replaces: ba13bc17-0a77-40fb-8066-58b4266b153c (<<4.61.50000)
+Section: Infrastructure
+Size: 62617016
+Version: 4.6.3.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 190006
+Conflicts: d42e7bae-6589-4570-b6a3-3e28889392e7 (<<14.0.40000)
+Depends: ni-mdfsupport (>=19.0.0), ni-metauninstaller (>=19.0.0), ni-msiproperties (>=19.0.0)
+Description: NI installer for Microsoft Visual C++ 2015 Run-Time Update 3 (includes KB3118401)
+DisplayName: Microsoft Visual C++ 2015 Run-Time
+DisplayVersion: 14.1.4
+Filename: ../../pool/ni-msvcrt-2015_14.1.5.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: 8e4b745a05fb8915820ca2c63fca0030
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-msvcrt-2015
+Plugin: wininst
+Priority: standard
+Provides: ca17c748-8b26-41c5-8e58-bcab06909bfc (=14.15.49152), d42e7bae-6589-4570-b6a3-3e28889392e7 (=14.15.49152), ed7e4769-125a-49ec-8865-16560163b673 (=14.15.49152)
+Replaces: d42e7bae-6589-4570-b6a3-3e28889392e7 (<<14.0.40000)
+Section: Infrastructure
+Size: 32770284
+Version: 14.1.5.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 190601
+Conflicts: 7fb990c5-1a51-4c1d-99c4-c6e50368e105 (<<16.2.0)
+Depends: ni-mdfsupport (>=20.0.0), ni-metauninstaller (>=20.0.0), ni-msdotnet4x (>=4.6.3)
+Description: NILauncher is for browsing and launching National Instruments software installed on your computer. Installs on Windows 8.x and newer.
+DisplayName: NI Launcher
+DisplayVersion: 20.0.0
+Eula: eula-ni-standard
+Filename: ../../pool/ni-launcher_20.0.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: dacbaad1a20120a7f2cafa910882d92e
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-launcher
+Plugin: wininst
+Priority: standard
+Provides: 7fb990c5-1a51-4c1d-99c4-c6e50368e105 (=20.00.49152)
+Replaces: 7fb990c5-1a51-4c1d-99c4-c6e50368e105 (<<16.2.0)
+Section: Infrastructure
+Size: 5053738
+Version: 20.0.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 200003
+Conflicts: 65409fda-16de-4703-96d1-d7def33b60ed (<<16.0.16384)
+Depends: ni-mdfsupport (>=19.0.0), ni-metauninstaller (>=19.0.0), ni-msvcrt-2015 (>=14.1.5)
+Description: NI SSL Support helps you enable Secure Sockets Layer (SSL) encryption on the Web Server.
+DisplayName: NI SSL Support
+DisplayVersion: 20.0.0
+Eula: eula-ni-standard
+Filename: ../../pool/ni-ssl-support_20.0.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: 6e63c237980faec419ee955ca41f1826
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-ssl-support
+Plugin: wininst
+Priority: standard
+Provides: 65409fda-16de-4703-96d1-d7def33b60ed (=20.00.49152), e8a4850c-5fda-4c58-be1d-68dca120d0bb (=20.00.49152)
+Replaces: 65409fda-16de-4703-96d1-d7def33b60ed (<<16.0.16384)
+Section: Infrastructure
+Size: 3417794
+Version: 20.0.0.49152-0+f0
+
+Architecture: windows_x64
+CompatibilityVersion: 200003
+Conflicts: 8a12764f-2a58-45ad-a962-87d490209d58 (<<15.9.9)
+Depends: ni-launcher (>=19.0.0), ni-mdfsupport (>=19.5.0), ni-metauninstaller (>=19.5.0), ni-msdotnet4x (>=4.6.3), ni-msiproperties (>=19.5.0), ni-msvcrt-2015 (>=14.1.5), ni-ssl-support (>=19.0.0)
+Description: The NI Web Server hosts web applications and web UIs.
+Description-de: Der NI-Webserver hostet Webanwendungen und Web-UIs.
+Description-fr: Le serveur Web NI héberge des applications Web et des interfaces utilisateur Web.
+Description-ja: NI WebサーバはWebアプリケーションとWeb UIをホストします。
+Description-ko: NI 웹 서버는 웹 어플리케이션과 웹 UI를 호스팅합니다.
+Description-zh-CN: NI Web服务器用于托管Web应用程序和Web UI。
+DisplayName: NI Web Server
+DisplayName-de: NI-Webserver
+DisplayName-fr: NI Web Server
+DisplayName-ja: NI Webサーバ
+DisplayName-ko: NI 웹 서버
+DisplayName-zh-CN: NI Web服务器
+DisplayVersion: 20.5.0
+Eula: eula-ni-standard
+Filename: ../../pool/ni-webserver_20.5.0.49152-0+f0_windows_x64.nipkg
+Homepage: http://www.ni.com
+MD5sum: e6a22a70d4ae591e4abe35e25161836b
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_64BIT WINDOWS_81_64BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-webserver
+Plugin: wininst
+Priority: standard
+Provides: 8a12764f-2a58-45ad-a962-87d490209d58 (=20.50.49152)
+Replaces: 8a12764f-2a58-45ad-a962-87d490209d58 (<<15.9.9)
+Section: Utilities
+Size: 6598882
+UserVisible: yes
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 0
+Conflicts: ni-package-manager
+Description: Package for displaying the NI Software License Agreement for Released Products
+DisplayName: NI Software License Agreement for Released Products
+DisplayVersion: 20.5.0
+EulaPriority: -100
+EulaTitle: NI
+Filename: ../../pool/eula-ni-standard_20.5.0.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5Sum: 3f8537e8f4036874e2c093b927f69049
+MD5sum: 3f8537e8f4036874e2c093b927f69049
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT WINDOWS_SERVER_2016_64BIT
+Package: eula-ni-standard
+Plugin: eula
+Priority: standard
+Section: Infrastructure
+Size: 273564
+UserVisible: no
+Version: 20.5.0.49152-0+f0
+
+Architecture: windows_all
+CompatibilityVersion: 190601
+Conflicts: 1f2c1e66-64c0-4ce1-b96e-7bb6ec99fcb1 (<<1.99.0)
+Description: NI Certificates configures Microsoft Windows to always trust software from NI. When NI Certificates are installed, no Windows security popups appear for installers that have a valid National Instruments digital signature.
+Description-de: Mit NI-Zertifikaten wird das Betriebssystem Microsoft Windows so konfiguriert, dass es Software von NI immer vertraut. Bei der Installation von NI-Zertifikaten werden für Installationsprogramme, die über eine gültige digitale Signatur von National Instruments verfügen, keine Windows-Sicherheits-Popups angezeigt.
+Description-fr: Les certificats NI configurent Microsoft Windows pour toujours faire confiance aux logiciels de NI. Lorsque les certificats NI sont installés, aucune fenêtre contextuelle de sécurité Windows n'apparaît pour les installateurs disposant d'une signature numérique National Instruments valide.
+Description-ja: NI証明書は、NIのソフトウェアを常に信頼するようにMicrosoft Windowsを設定します。NI証明書がインストールされていると、有効なナショナルインスツルメンツのデジタル署名のあるインストーラに対しては、Windowsのセキュリティポップアップは表示されません。
+Description-ko: NI 인증서는 NI의 소프트웨어를 항상 신뢰하도록 Microsoft Windows를 설정합니다. NI 인증서가 설치되면, 유효한 National Instruments 디지털 서명이 있는 설치 프로그램에 대해 Windows 보안 팝업이 표시되지 않습니다.
+Description-zh-CN: NI Certificates用于配置Microsoft Windows，使其始终信任来自NI的软件。安装NI Certificates后，具有National Instruments有效数字签名的安装程序将不会再显示Windows安全弹出窗口。
+DisplayName: NI Certificates Installer
+DisplayName-de: NI-Zertifikate (Installationsprogramm)
+DisplayName-fr: Installeur de certificats NI
+DisplayName-ja: NI証明書インストーラ
+DisplayName-ko: NI 인증 설치 프로그램
+DisplayName-zh-CN: NI Certificates安装程序
+DisplayVersion: 2.0.3
+Eula: eula-ni-standard
+Filename: ../../pool/ni-certificates_2.0.3.49152-0+f0_windows_all.nipkg
+Homepage: http://www.ni.com
+MD5sum: f837aa04c9b1352026b2f49ae689e1ff
+Maintainer: National Instruments <support@ni.com>
+OsSupport: WINDOWS_7_SP1_32BIT WINDOWS_7_SP1_64BIT WINDOWS_81_32BIT WINDOWS_81_64BIT WINDOWS_10_32BIT WINDOWS_10_64BIT WINDOWS_EMBEDDED_STANDARD_7_SP1 WINDOWS_SERVER_2008_R2_SP1_64BIT WINDOWS_SERVER_2012_R2_64BIT
+Package: ni-certificates
+Plugin: wininst
+Priority: essential
+Provides: 1f2c1e66-64c0-4ce1-b96e-7bb6ec99fcb1 (=2.03.49152)
+Replaces: 1f2c1e66-64c0-4ce1-b96e-7bb6ec99fcb1 (<<1.99.0)
+Section: Utilities
+Size: 448736
+UserVisible: yes
+Version: 2.0.3.49152-0+f0
+

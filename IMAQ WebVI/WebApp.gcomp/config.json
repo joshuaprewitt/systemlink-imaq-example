@@ -1,0 +1,22 @@
+{
+   "authorizationMarker": "/plugins/sl-imaq/resources/marker.txt",
+   "buttonIconCls": "sl-imaq-icon",
+   "buttonLabelToken": "sl-imaq.pluginTitle",
+   "buttonTooltipToken": "sl-imaq.pluginTitle",
+   "iframeSrc": "/plugins/sl-imaq/index.html",
+   "orderWeight": 2,
+   "permission": "",
+   "resources": {
+      "en": {
+         "css": [
+            "/plugins/sl-imaq/resources/css/sl-imaq.css"
+         ],
+         "json": [
+            "/plugins/sl-imaq/resources/json/locales/en.json"
+         ]
+      }
+   },
+   "routeToken": "sl-imaq",
+   "titleToken": "sl-imaq.pluginTitle",
+   "waitUntilLaunched": false
+}
